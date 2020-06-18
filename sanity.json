@@ -12,9 +12,7 @@
     "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/dashboard",
-    "@sanity/desk-tool",
-    "dashboard-widget-gatsby"
+    "@sanity/desk-tool"
   ],
   "env": {
     "development": {

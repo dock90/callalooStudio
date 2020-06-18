@@ -6,24 +6,28 @@ export default {
     {
       title: 'Name',
       name: 'menuItemName',
-      type: 'string'
+      type: 'string',
+      description: 'The name of the menu item.'
     },
     {
       title: 'Price',
       name: 'menuItemPrice',
-      type: 'number'
+      type: 'number',
+      description: 'How much does this item cost?'
     },
     {
       title: 'Category',
       name: 'menuItemCategory',
       type: 'reference',
-      to: [{ type: 'menuCategory' }]
+      to: [{ type: 'menuCategory' }],
+      description: 'Which meal category does this item belong in.'
     },
     {
       title: 'Description',
       name: 'menuItemDescription',
       type: 'array',
-      of: [{ type: 'block' }]
+      of: [{ type: 'block' }],
+      description: 'Write a short description of what the item is.'
     }
   ],
   preview: {
