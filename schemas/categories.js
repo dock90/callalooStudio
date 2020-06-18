@@ -4,7 +4,7 @@ export default {
   type: 'document',
   fields: [
     {
-      title: 'Cateogry Name',
+      title: 'Category Name',
       name: 'menuCategoryName',
       type: 'string'
     },
