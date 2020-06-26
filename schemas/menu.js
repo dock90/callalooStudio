@@ -1,7 +1,10 @@
+import { MdRestaurantMenu } from 'react-icons/md'
+
 export default {
   title: 'Menu Item',
   name: 'menuItem',
   type: 'document',
+  icon: MdRestaurantMenu,
   fields: [
     {
       title: 'Name',
@@ -33,7 +36,7 @@ export default {
   preview: {
     select: {
       title: 'menuItemName',
-      subtitle: 'menuCategoryName'
-    }
+      subtitle: 'menuItemCategory.menuCategoryName',
+    },
   }
 }
